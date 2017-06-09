@@ -1,0 +1,13 @@
+.header{width: 100%;height: 40px;background: #111;min-width: 1226px;}
+.h_top{width: 1226px;height: 40px;margin:0 auto;}
+.h_t_left{width: 600px;height: 40px;line-height: 40px;}
+.h_t_right{width: 300px;height: 40px;}
+.h_t_left li{float: left;}
+.h_t_left li a,.h_t_r_login a{color:#B0B0B0;}
+.h_t_left li a:hover,.h_t_r_login a:hover{color:#FFF;}
+.h_t_line{color:#424242;margin: 0 0.5em;}
+.h_t_r_login{width:145px;height: 40px;line-height:40px;}
+.h_t_r_shopCart{width: 120px;height: 40px;background: #424242;line-height: 40px;text-align: center;color:#b0b0b0;position: relative;cursor: pointer;}
+.h_t_r_shopCart:hover{background: #FFF;} 
+.h_t_r_shopCart:hover .iconfont,.h_t_r_shopCart:hover .car{color: #F60;}
+.h_m_r_s_hide{width:320px;height:100px;background:#fff;box-shadow: 0 2px 2px #111;position: absolute;top:40px;right: 0px;line-height: 100px;cursor: default;display: none;z-index: 10;}
