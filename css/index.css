@@ -47,5 +47,5 @@
 .w_n_c_h_main li a img{width: 160px;height: 110px;}
 .w_n_c_h_main li .p_title{text-align: center;margin-top:16px;color: #333;}
 .w_n_c_h_main li .p_price{text-align: center;margin-top:6px;color: #f60;}
-.w_n_c_h_main li .p_border{/*content:"";*/width: 0px;height:100px;border-right: 1px solid #e5e5e5;position: absolute;top:30px;right: 0}
+.w_n_c_h_main li .p_border{width: 0px;height:100px;border-right: 1px solid #e5e5e5;position: absolute;top:30px;right: 0}
 /*wap_nav_center_hover end*/

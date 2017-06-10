@@ -28,4 +28,9 @@ $(function(){
 	},function(){
 		$w_n_c_hover.stop(true).slideUp(300);
 	})
+	$w_n_c_hover.hover(function(){
+		$(this).stop(true).slideDown(300);
+	},function(){
+		$(this).stop(true).slideUp(300);
+	});
 })
