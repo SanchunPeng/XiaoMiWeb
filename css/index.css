@@ -25,9 +25,11 @@
 .w_n_s_input input{display: block;width: 245px;height: 55px;outline:none;border:1px solid #ddd;border-right: 0;text-indent: 10px;font-size: 12px;transition: .2s;}
 .w_n_serach:hover .w_n_s_input input,.w_n_serach:hover .w_n_s_find{border-color: #bbb;}
 .w_n_serach.focus .w_n_s_input input,.w_n_serach.focus .w_n_s_find{border-color: #f60;}
-.w_n_s_hide{z-index:9;width: 244px;height:300px;background: #fff;border:1px solid #f60;border-top:0;position: absolute;top:55px;left: 0;display: none;}
+.w_n_s_hide{z-index:9;width: 246px;height:300px;background: #fff;border:1px solid #f60;border-top:0;position: absolute;top:55px;left: 0;display: none;}
 .w_n_s_hide li{height: 30px;line-height: 30px;}
 .w_n_s_hide li:hover{background:#e6e6e6;}
+.w_n_s_hide li a{padding-left: 16px;display: block;color: #333;}
+.w_n_s_hide li a span{float: right;padding-right: 16px;color: #bbb;}
 .w_n_s_find{width: 55px;height: 55px;background: #fff;border:1px solid #ddd;text-align: center;line-height:53px;cursor: pointer;transition: .2s;}
 .w_n_s_find .iconfont{color: #333;font-size: 30px;transition: .2s;}
 .w_n_s_find:hover{border-color: #f60;background: #f60}
