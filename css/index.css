@@ -63,3 +63,19 @@
 .b_s_tabs li{width:10px;height:10px;background:gray;background: rgba(0,0,0,0.4);border-radius: 50%;border:2px solid #999;float: left;margin:0 4px;cursor: pointer;}
 .b_s_tabs li:hover,.b_s_tabs li.b_s_t_hover{background: #e5e5e5;border-color:#bbb;}
 /*banner_pic end*/
+/*banner_nav start*/
+.b_nav{width: 235px;height: 420px;background: gray;background:rgba(0,0,0,0.6);position: absolute;top:0;left: 0;padding:20px 0;}
+.b_nav>ul>li{height:42px;line-height: 42px;}
+.b_nav>ul>li>a{height:42px;display: block;padding-left: 30px;font-size: 14px;color: #fff;}
+.b_nav>ul>li>a>span{float: right;margin-right: 24px;font-size: 12px;color: #bbb;}
+.b_nav>ul>li:hover{background: #f60;}
+.b_nav ul li .b_n_hide{width: 512px;height: 459px;background: #fff;position: absolute;top:0;left: 235px;border-top:1px solid #bbb;box-shadow:0 2px 2px #999;display: none;}
+.b_nav ul li ul{width: 250px;height: 447px;padding:6px 0px;float: left;margin-left: 6px;}
+.b_nav ul li .b_n_hide  li{height: 74px;line-height: 74px;}
+.b_nav ul li .b_n_hide .b_n_h_img{float: left;padding-left: 13px;}
+.b_nav ul li .b_n_hide .b_n_h_img img{float: left;margin-top:17px;}
+.b_nav ul li .b_n_hide .b_n_h_img span{float: left;padding:0 36px 0 12px;font-size: 14px;color: #333;transition: .3s;}
+.b_nav ul li .b_n_hide .b_n_h_xg{color:#f60;float: right;width: 60px;height: 24px;border:1px solid #f60;text-align: center;line-height: 24px;margin-top: 25px;margin-right: 10px;transition: .3s;}
+.b_nav ul li .b_n_hide .b_n_h_img:hover span{color: #f60;}
+.b_nav ul li .b_n_hide .b_n_h_xg:hover{background: #f60;color: #fff;}
+/*banner_nav end*/
