@@ -33,5 +33,68 @@ $(function(){
 	},function(){
 		$(this).stop(true).slideUp(300);
 	});
+	
+	//轮播图动画
+	var $b_s_tabs_li=$(".b_s_tabs li");
+	var $b_m_pic_li=$(".b_s_picture li");
+	var $b_s_prev=$(".b_s_prev");
+	var $b_s_next=$(".b_s_next");
+	var $b_m_pic_li_len=$b_m_pic_li.length;
+	var $b_show=$(".b_show");
+	var banner_index=0;
+	var timer=null//定时器
+	autoPlay();
+	$b_s_tabs_li.hover(function(){
+		$(this).addClass("b_s_t_hover");
+	},function(){
+		$(this).removeClass("b_s_t_hover");
+	}).click(function(){
+		banner_index=$(this).index();
+		bannerPlay();
+	});
+	$b_s_prev.click(function(){
+		banner_index--;
+		if(banner_index<0){
+			banner_index=$b_m_pic_li_len-1;
+		}
+		bannerPlay();
+		
+	});
+	$b_s_next.click(function(){
+		banner_index++;
+		if(banner_index >= $b_m_pic_li_len){
+			banner_index=0;		
+		}
+		bannerPlay();
+	})
+	
+	$b_show.hover(function(){
+		clearInterval(timer);
+	},function(){
+		autoPlay();
+	})
+	function bannerPlay(){
+		$b_m_pic_li.eq(banner_index).fadeIn().siblings().fadeOut();
+		$b_s_tabs_li.eq(banner_index).addClass("b_s_t_hover").siblings().removeClass("b_s_t_hover");
+	}
+	
+	function autoPlay(){
+		timer=setInterval(function(){
+			banner_index++;
+			if(banner_index>=$b_m_pic_li_len){
+				banner_index=0;
+			}
+			bannerPlay();
+		},2000)
+	}
+	
+	
+	//左侧二级导航
+	var $b_nav_li = $(".b_nav>ul>li");
+	$b_nav_li.hover(function(){
+		$(this).find(".b_n_hide").show();
+	},function(){
+		$(this).find(".b_n_hide").hide();
+	})
 })
 

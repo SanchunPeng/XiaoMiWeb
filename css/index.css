@@ -64,7 +64,7 @@
 .b_s_tabs li:hover,.b_s_tabs li.b_s_t_hover{background: #e5e5e5;border-color:#bbb;}
 /*banner_pic end*/
 /*banner_nav start*/
-.b_nav{width: 235px;height: 420px;background: gray;background:rgba(0,0,0,0.6);position: absolute;top:0;left: 0;padding:20px 0;}
+.b_nav{width: 235px;height: 460px;background: gray;background:rgba(0,0,0,0.6);position: absolute;top:0;left: 0;padding:20px 0;}
 .b_nav>ul>li{height:42px;line-height: 42px;}
 .b_nav>ul>li>a{height:42px;display: block;padding-left: 30px;font-size: 14px;color: #fff;}
 .b_nav>ul>li>a>span{float: right;margin-right: 24px;font-size: 12px;color: #bbb;}
