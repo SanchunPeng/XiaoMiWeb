@@ -49,3 +49,17 @@
 .w_n_c_h_main li .p_price{text-align: center;margin-top:6px;color: #f60;}
 .w_n_c_h_main li .p_border{width: 0px;height:100px;border-right: 1px solid #e5e5e5;position: absolute;top:30px;right: 0}
 /*wap_nav_center_hover end*/
+/*banner_pic start*/
+.banner{width:1226px;height:460px;margin:0 auto;position:relative;}
+.b_show{width:1226px;height:460px;position:relative;}
+.b_s_picture{width:1226px;height:460px;}
+.b_s_picture li{position:absolute;top: 0;left: 0;display: none;}
+.b_s_btn div{width: 41px;height: 69px;background: red;position: absolute;top:50%;margin-top:-34px;cursor: pointer;background: url(../img/banner/btn.png) no-repeat;}
+.b_s_btn .b_s_prev{left:235px;border-radius: 0 2px 2px 0;background-position: -84px 0px;}
+.b_s_btn .b_s_next{right:0;border-radius: 2px 0 0 2px;background-position:-121px 0px;}
+.b_s_btn .b_s_prev:hover{background-position: 0px 0px;}
+.b_s_btn .b_s_next:hover{background-position: -42px 0px;}
+.b_s_tabs{width: 150px;height: 10px;position: absolute;right: 30px;bottom: 30px;}
+.b_s_tabs li{width:10px;height:10px;background:gray;background: rgba(0,0,0,0.4);border-radius: 50%;border:2px solid #999;float: left;margin:0 4px;cursor: pointer;}
+.b_s_tabs li:hover,.b_s_tabs li.b_s_t_hover{background: #e5e5e5;border-color:#bbb;}
+/*banner_pic end*/

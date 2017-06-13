@@ -34,3 +34,4 @@ $(function(){
 		$(this).stop(true).slideUp(300);
 	});
 })
+
