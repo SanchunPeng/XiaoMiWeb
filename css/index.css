@@ -79,3 +79,38 @@
 .b_nav ul li .b_n_hide .b_n_h_img:hover span{color: #f60;}
 .b_nav ul li .b_n_hide .b_n_h_xg:hover{background: #f60;color: #fff;}
 /*banner_nav end*/
+/*footer start*/
+.footer{width:100%;height: 440px;min-width: 1226px;}
+.f_service{width: 1226px;height: 80px;margin:0 auto;border-bottom:1px solid #e0e0e0;}
+.f_service ul{padding-top:25px;}
+.f_service li{float: left;width: 244px;border-right:1px solid #e0e0e0;}
+.f_service li a{margin-left: 55px;color: #616161;font-size: 16px;transition: .3s;}
+.f_service li a .iconfont{font-size: 24px;margin-right: 4px;}
+.f_service li a:hover{color: #ff6700}
+.f_info{width: 1226px;height: 120px;margin:40px auto;}
+.f_i_left{width:979px;height:120px;;float: left;border-right:1px solid #e0e0e0;}
+.f_i_left dl{float: left;width: 160px;}
+.f_i_left dl dt{margin-bottom: 30px;font-size: 14px;}
+.f_i_left dl dd{margin-bottom:10px;}
+.f_i_left dl dd a{color:#757575}
+.f_i_left dl dd a:hover{color:#f60;}
+.f_i_right{width:246px;height: 120px;float: right;text-align: center;}
+.f_i_right .p1{font-size: 22px;color: #ff6700;}
+.f_i_right .p2,#footer .f_info .f_i_right .p3{color:#616161 }
+.f_i_right .p2{margin:6px 0 2px;}
+.f_i_right a{width: 120px;height: 30px;display: block;border:1px solid #ff6700;color: #ff6700;text-align: center;line-height: 30px;margin:18px auto 0;transition: .3s;}
+.f_i_right a:hover{background: #ff6700;color: #fff;}
+.f_link{height:129px;width: 100%;background: #fafafa;padding-top:30px;}
+.f_l_info{width: 1226px;height: 57px;margin:0px auto;}
+.f_l_i_left{width:850px;height:57px;float: left;position: relative;}
+.f_l_i_left img{float: left;background:#f60 center;}
+.f_l_i_left ul{float: left;margin-left: 4px;}
+.f_l_i_left ul li{float: left;}
+.f_l_i_left ul li a{color: #757575;margin:0 4px;}
+.f_l_i_left ul li a:hover{color: #ff6700}
+.f_l_i_left span{position: absolute;top:20px;left:64px;color:#b0b0b0;width: 594px;}
+.f_l_i_right{width:376px;height:57px;float: left;}
+.f_l_i_right a img{width: 85px;height: 28px;}
+.f_l_i_right a{float: left;margin-left: 4px;}
+.f_l_bottom{width: 1226px;height: 19px;background: pink;margin: 38px auto 0;background: url(image/footer/footer.png) no-repeat center;}
+/*footer end*/
